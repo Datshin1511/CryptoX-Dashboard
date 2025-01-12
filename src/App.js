@@ -22,15 +22,39 @@ function App() {
                 </div>
               </button>
             </div>
-          <div className='container'>
-            <h4 className=''>Trending Coins (24h)</h4>
-            <ul>
-              <li>Track your transactions</li>
-              <li>Generate tax reports</li>
-              <li>Get insights on your portfolio</li>
-              <li>Get alerts on market changes</li>
-            </ul>
           </div>
+          <div className='container bg-info rounded p-3 mt-3'>
+            <h4 className='text-white'>Trending Coins (24h)</h4>
+            <ul className='top-coins-list'>
+              <li>
+                <div className='d-flex flex-row'>
+                  <img src='' className='coin-image' alt='bitcoin-img' />
+                  <p className='mx-2'>Bitcoin</p>
+                </div>
+                <img src="default-image.png" alt="default" />
+              </li>
+              <li>
+                <div className='d-flex flex-row'>
+                  <img src='' className='coin-image' alt='eth-img' />
+                  <p className='mx-2'>Ethereum</p>
+                </div>
+                <img src="default-image.png" alt="default" />
+              </li>
+              <li>
+                <div className='d-flex flex-row'>
+                  <img src='' className='coin-image' alt='pi-img' />
+                  <p className='mx-2'>Pi</p>
+                </div>
+                <img src="default-image.png" alt="default" />
+              </li>
+              <li>
+                <div className='d-flex flex-row'>
+                  <img src='default.img' className='coin-image' alt='dogecoin-img' />
+                  <p className='mx-2'>Dogecoin</p>
+                </div>
+                <img src="default-image.png" alt="default" />
+              </li>
+            </ul>
           </div>
         </div>
       </div>

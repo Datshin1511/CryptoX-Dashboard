@@ -11,3 +11,25 @@
   justify-content: center;
   height: 100%;
 }
+
+.top-coins-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  list-style: none;
+  padding: 5px;
+}
+
+.top-coins-list li {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.coin-image{
+  height: 20px;
+  width: 20px;
+  margin: 0;
+  padding: 0;
+}
